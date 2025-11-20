@@ -40,7 +40,6 @@
 *.sdf
 *.VC.db
 *.VC.opendb
-.vsconfig
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -52,6 +51,13 @@ Plugins/**/Binaries/*
 
 # Builds
 Build/*
+
+# Assests
+Content/Assets/PostCity/*
+!Content/Assets/PostCity/Materials/
+!Content/Assets/PostCity/Materials/**
+Content/Assets/Zombie_02/*
+Content/Assets/Adventures_Pack/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -73,3 +79,6 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Assets
+Content/Assets/PostCity/*
